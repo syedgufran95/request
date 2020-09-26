@@ -56,4 +56,4 @@ def code(x):
 
 
 
-	print("error %s \n %s\n"%(x,dict[x]))
+	print("status code is %s , and the description is given below: \n %s\n"%(x,dict[x]))
