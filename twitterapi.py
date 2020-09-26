@@ -6,6 +6,9 @@ Created on Sat Sep 26 14:44:21 2020
 """
 from mymodule import *
 import os
+#nano env/bin/activate
+#eport CLIENT_KEYS="YOUR KEY"
+#export CLIENT_SECRET="YOUR SECRET"
 client_key=os.environ.get("CLIENT_KEYS")
 client_secret=os.environ.get("CLIENT_SECRET")
 #print("key is ::::::::",client_key)
