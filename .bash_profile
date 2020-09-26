@@ -1,0 +1,2 @@
+export CLIENT_KEYS='R9ZIskoSCPSxo5XZ6CTrVj40w'
+export CLIENT_SECRET='qMaFGvnodNjaOkN7qkfPgOelKwaumYTmh3oVtAZ6ALZs3Q77qu'

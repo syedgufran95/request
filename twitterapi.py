@@ -5,11 +5,13 @@ Created on Sat Sep 26 14:44:21 2020
 @author: MACHINE
 """
 from mymodule import *
-client_key='R9ZIskoSCPSxo5XZ6CTrVj40w'
-client_secret='qMaFGvnodNjaOkN7qkfPgOelKwaumYTmh3oVtAZ6ALZs3Q77qu'
+import os
+client_key=os.environ.get("CLIENT_KEYS")
+client_secret=os.environ.get("CLIENT_SECRET")
+#print("key is ::::::::",client_key)
 import base64
 key_secret='{}:{}'.format(client_key,client_secret).encode('ascii')
-print(key_secret)
+#print(key_secret)
 b64_encoded_key=base64.b64encode(key_secret)
 b64_encoded_key=b64_encoded_key.decode('ascii')
 
